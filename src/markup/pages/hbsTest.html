@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Awesome application</title>
+    <link href="css/app.bundle.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    1. This file pulls in:
+    <br>markup/partials/components/hbsTest.hbs
+    <br>data/components/hbsTest.json
+    <br>js/components/hbsTest.js
+    <br>all css
+
+    <br><br><br><br><br>
+
+    {{> components/_hbsTest}}
+
+    <script type="text/javascript" src="js/shared.bundle.js"></script>
+    <script type="text/javascript" src="js/app.bundle.js"></script>
+    <script type="text/javascript" src="js/vendor.bundle.js"></script>
+    <script type="text/javascript" src="js/hbsTest.js"></script>
+
+  </body>
+</html>

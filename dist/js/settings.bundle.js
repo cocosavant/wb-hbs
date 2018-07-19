@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 8:
+/***/ 9:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13,4 +13,4 @@ console.log('Settings.js is here!');
 
 /***/ })
 
-},[8]);
+},[9]);

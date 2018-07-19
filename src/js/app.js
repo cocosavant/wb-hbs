@@ -3,15 +3,8 @@ import * as _ from 'lodash';
 import './sharedModule';
 import './../styles/appStyles.scss';
 import './../styles/app.css';
-// import homeIcon from '../images/home.png';
-// import natureImg from '../images/nature.jpg';
-//var forEach = require('lodash.foreach');
 
-// var homeImg = document.getElementById('home');
-// homeImg.src = homeIcon;
-
-// var frontImg = document.getElementById('frontImg');
-// frontImg.src = natureImg;
+var template = require("./file.handlebars");
 
 console.log("Welcome! Greetings from app.js. Let's learn Webpack2");
 

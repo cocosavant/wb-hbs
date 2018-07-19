@@ -43,15 +43,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-// import homeIcon from '../images/home.png';
-// import natureImg from '../images/nature.jpg';
-//var forEach = require('lodash.foreach');
 
-// var homeImg = document.getElementById('home');
-// homeImg.src = homeIcon;
-
-// var frontImg = document.getElementById('frontImg');
-// frontImg.src = natureImg;
+var template = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./file.handlebars\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 console.log("Welcome! Greetings from app.js. Let's learn Webpack2");
 
