@@ -1,0 +1,26 @@
+div {
+  background-color: #99cc00;
+  padding: 10px; }
+
+.settingIcon {
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: inline-block; }
+
+body {
+  font: verdana, sans-serif;
+  background-color: #f3e2c7; }
+  body h1, body h2 {
+    color: #b68d4c; }
+div {
+  background-color: #99cc00;
+  padding: 10px; }
+
+.settingIcon {
+  background-image: url("/img/settings.png");
+  /* NOTE: use "~" for bg images */
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: inline-block; }

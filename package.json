@@ -1,0 +1,30 @@
+{
+  "name": "newwebpackproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.9.2",
+    "sass-lint": "^1.12.1",
+    "sass-loader": "^6.0.7",
+    "sasslint-webpack-plugin": "^1.0.4",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config './webpack/webpack.config.js'",
+    "buildfiles": "webpack --config './webpack/webpack.config.js'"
+  },
+  "author": "",
+  "license": "ISC"
+}
