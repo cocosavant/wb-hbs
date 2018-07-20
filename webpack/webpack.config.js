@@ -26,7 +26,7 @@ module.exports = {
 
   watch:true,
   resolve: {
-    extensions: [".js", ".json"]
+    extensions: [".js", ".json", '.hbs']
   },
 
   module:{
@@ -50,9 +50,13 @@ module.exports = {
       },
       {
         test: /\.hbs$/,
-        loader: "handlebars-loader"
+        use: [{loader: "handlebars-loader"}]
+      },
+      {
+        test: /\.json$/,
+        use: [{loader: "json-loader"}]
       }
-    ]
+    ],
   },
 
   plugins: [
