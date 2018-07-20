@@ -8,15 +8,15 @@ var SassLintPlugin = require('sasslint-webpack-plugin');
 
 module.exports = {
   entry: {
-  app: "./src/js/app.js",
-  vendor: Object.keys(package.dependencies),
-  settings: "./src/js/settings.js",
-  hbsTest: "./src/js/components/hbsTest.js"
+    app: "./src/js/app.js",
+    vendor: Object.keys(package.dependencies),
+    settings: "./src/js/settings.js",
+    hbsTest: "./src/js/components/hbsTest.js"
   },
 
   output: {
-  path: path.join(__dirname, "../dist/"),
-  filename: "js/[name].bundle.js",
+    path: path.join(__dirname, "../dist/"),
+    filename: "js/[name].bundle.js",
   },
 
   devServer: {
@@ -26,7 +26,7 @@ module.exports = {
 
   watch:true,
   resolve: {
-    extensions: [".js", ".ts"]
+    extensions: [".js", ".json"]
   },
 
   module:{

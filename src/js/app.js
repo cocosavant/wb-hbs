@@ -4,7 +4,7 @@ import './sharedModule';
 import './../styles/appStyles.scss';
 import './../styles/app.css';
 
-var template = require("./file.handlebars");
+//var template = require("./file.handlebars");
 
 console.log("Welcome! Greetings from app.js. Let's learn Webpack2");
 

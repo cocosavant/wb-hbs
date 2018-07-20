@@ -44,7 +44,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var template = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./file.handlebars\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+//var template = require("./file.handlebars");
 
 console.log("Welcome! Greetings from app.js. Let's learn Webpack2");
 
